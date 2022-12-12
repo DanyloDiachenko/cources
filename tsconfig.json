@@ -29,3 +29,5 @@
     "node_modules"
   ]
 }
+
+/* npm i -D stylelint stylelint-config-standard stylelint-order stylelint-order-config-standard  */
