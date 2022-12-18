@@ -1,9 +1,12 @@
 import { Htag } from '../components';
+import { Button } from '../components';
 
 export default function Home(): JSX.Element {
   return (
-    <div>
-      <Htag tag="h2">текст</Htag>
-    </div>
+    <>
+      <Htag tag="h3">Текст</Htag>
+      <Button appearance="primary">Click me</Button>
+      <Button appearance="ghost">Click me</Button>
+    </>
   );
 }
