@@ -27,3 +27,13 @@
     background: var(--primary);
     color: white;
 }
+
+.arrow {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.down {
+    transform: rotate(90deg);
+    transition: 0.2s;
+}
